@@ -5,15 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <title>Document</title>
+  <title>Skyleet Technologies</title>
 </head>
 
-<body>
+<body id='body' data-spy="scroll" data-target=".navbar" data-offset="50">
   <section class='header'>
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#"><img src="../images/newlogo.png" class='logo' alt=""></a>
@@ -25,16 +23,16 @@
       <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#story">About</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
+            <a class="nav-link" href="#services1">Services</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -54,12 +52,12 @@
     </div>
   </section>
 
-  <section class='story'>
+  <section class='story' id='story'>
     <div class="aboutUsImg">
       <img src="../images/aboutUsImg.png" class='img-fluid imgAboutUs' alt="">
     </div>
     <div class="aboutUs">
-      <h1>OUR STORY</h1>
+      <h1 class='headingText'>OUR STORY</h1>
       <p class='aboutUsText'>
         Skyleet Technologies is a growing company founded by passionate engineers that have been
         providing software development services since 2011. We employ a skilled team of developers in Sarajevo, Bosnia &
@@ -69,10 +67,10 @@
       </p>
     </div>
   </section>
-  <section class="servicers">
-    <img src="../images/services1.png" class='servicesPic' alt="">
-    <img src="../images/services2.png" class='servicesPic2' alt="">
-    <img src="../images/services3.png" class='servicesPic3' alt="">
+  <section class="servicers" id='services'>
+    <img src="../images/services1.png" class='servicesPic img-fluid' alt="">
+    <img src="../images/services2.png" id='services1' class='servicesPic2 img-fluid' alt="">
+    <img src="../images/services3.png" class='servicesPic3 img-fluid' alt="">
     <div class="whyUs">
       <h1>OUR STORY</h1>
       <p class='whyUsText'>
