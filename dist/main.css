@@ -10576,8 +10576,14 @@ body {
   margin-right: 10%;
 }
 
-.nav-item {
+.links {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .links {
+    color: white;
+  }
 }
 
 .header {
@@ -10596,11 +10602,23 @@ body {
   z-index: -1;
 }
 
+@media only screen and (max-width: 600px) {
+  .header-image {
+    display: none;
+  }
+}
+
 .logomain {
   position: absolute;
   right: 5%;
   top: 20%;
   width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .logomain {
+    display: none;
+  }
 }
 
 h1 {
@@ -10611,6 +10629,12 @@ h1 {
   position: absolute;
   top: 25%;
   left: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerContainer {
+    display: none;
+  }
 }
 
 .headerText {
@@ -10656,6 +10680,48 @@ h1 {
   margin: 0 auto;
 }
 
+.storyMobile {
+  display: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .storyMobile {
+    display: block;
+    height: 100vh;
+  }
+}
+
+.storyMobile .backgroundImgStory {
+  position: absolute;
+  top: 85vh;
+  width: 100%;
+  left: 0;
+  min-height: 900px;
+  height: 125%;
+  z-index: -1;
+}
+
+.storyMobile .storyImgHeader {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.storyMobile .ourStoryHeader {
+  font-family: futura;
+  color: #535353;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.storyMobile p {
+  font-family: futura;
+  color: #535353;
+  text-align: justify;
+  font-size: 17px;
+  margin-top: 10%;
+}
+
 .aboutUsImg {
   width: 40%;
   float: left;
@@ -10665,11 +10731,23 @@ h1 {
   margin-top: 30%;
 }
 
+@media only screen and (max-width: 600px) {
+  .aboutUsImg {
+    display: none;
+  }
+}
+
 .aboutUs {
   width: 50%;
   float: right;
   font-family: futura;
   margin-top: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUs {
+    display: none;
+  }
 }
 
 .aboutUsText {
@@ -10679,12 +10757,24 @@ h1 {
   max-width: 600px;
 }
 
+@media only screen and (max-width: 600px) {
+  .aboutUsText {
+    display: none;
+  }
+}
+
 .aboutUsText:before {
   content: '';
   position: absolute;
   left: 50%;
   height: 13vw;
   border: 2px solid #535353;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUsText:before {
+    display: none;
+  }
 }
 
 .services {
@@ -10698,16 +10788,34 @@ h1 {
   float: right;
 }
 
+@media only screen and (max-width: 600px) {
+  .servicesPic {
+    display: none;
+  }
+}
+
 .servicesPic2 {
   width: 70%;
   float: left;
   margin-top: -32%;
 }
 
+@media only screen and (max-width: 600px) {
+  .servicesPic2 {
+    display: none;
+  }
+}
+
 .servicesPic3 {
   width: 55%;
   float: right;
   margin-top: -33%;
+}
+
+@media only screen and (max-width: 600px) {
+  .servicesPic3 {
+    display: none;
+  }
 }
 
 .whyUs {
@@ -10717,6 +10825,12 @@ h1 {
   font-family: futura;
   margin-right: 15%;
   margin-top: -26%;
+}
+
+@media only screen and (max-width: 600px) {
+  .whyUs {
+    display: none;
+  }
 }
 
 .whyUsText {
@@ -10733,6 +10847,88 @@ h1 {
   left: 5%;
   height: 17vw;
   border: 2px solid #535353;
+}
+
+.mobileServices {
+  display: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileServices {
+    display: block;
+  }
+}
+
+.mobileServices .whyUsMobile {
+  font-family: futura;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 15%;
+}
+
+.mobileServices .servicesHeadingText {
+  font-family: futura;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 20%;
+}
+
+.mobileServices p {
+  color: white;
+  font-family: futura;
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.mobileServices .serviceBackContainer {
+  background-color: #FFA500;
+  width: 100%;
+  height: 180px;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mobileServices .serviceBackContainer img {
+  width: 35%;
+  padding-left: 5px;
+}
+
+.mobileServices .serviceBackContainer .servText {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 8%;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.mobileServices .serviceBackContainer .servText h1 {
+  font-family: futura;
+  font-size: 20px;
+  color: #535353;
+  text-align: left;
+}
+
+.mobileServices .serviceBackContainer .servText p {
+  font-family: futura;
+  font-size: 14px;
+  color: #535353;
+  text-align: left;
+  width: 100%;
 }
 
 .footer {
@@ -10753,13 +10949,67 @@ h1 {
   color: #FFA500;
 }
 
+.footer p {
+  display: none;
+}
+
 .footer img {
   height: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: block;
+    height: auto;
+  }
+  .footer p {
+    display: block;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+.bottomLogo {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bottomLogo {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+.second {
+  display: none;
+  margin: 0 auto;
+  background-color: #02BDD5;
+  width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .second {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .rights {
   font-family: futura;
   font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rights {
+    display: none;
+  }
 }
 
 .socials {
@@ -10769,5 +11019,61 @@ h1 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .socials {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.mobileContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileContainer {
+    display: block;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.mobileContainer img {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 45%;
+}
+
+.mobileContainer p {
+  width: 70%;
+  margin-top: 7%;
+  color: white;
+  text-align: center;
+}
+
+.mobileContainer button {
+  background-color: #FFA500;
+  color: #535353;
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #535353;
+  }
+  .navbar-brand {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
