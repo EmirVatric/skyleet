@@ -1,0 +1,211 @@
+body {
+  background: #E6E6E6;
+  margin: 0;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  margin-left: 50px;
+}
+
+.menu {
+  margin-right: 10%;
+}
+
+.nav-item {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+  height: 105vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: -1;
+}
+
+.logomain {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  width: 30%;
+}
+
+h1 {
+  font-family: 'optima';
+}
+
+.headerContainer {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.headerText {
+  font-size: 5vw;
+  color: #535353;
+}
+
+.subtext {
+  font-family: 'optima';
+  color: #535353;
+  margin-left: 10px;
+  font-size: 1.2vw;
+}
+
+.subtext:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 10vh;
+  width: 0;
+  border: 2px solid #535353;
+}
+
+.contactUs {
+  border: none;
+  border-radius: 20px;
+  background: #535353;
+  height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+}
+
+.story {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.aboutUsImg {
+  width: 40%;
+  float: left;
+}
+
+.aboutUsImg img {
+  margin-top: 30%;
+}
+
+.aboutUs {
+  width: 50%;
+  float: right;
+  font-family: futura;
+  margin-top: 10vw;
+}
+
+.aboutUsText {
+  margin-left: 10px;
+  width: 70%;
+  max-width: 600px;
+}
+
+.aboutUsText:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  height: 13vw;
+  border: 2px solid #535353;
+}
+
+.services {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.servicesPic {
+  width: 55%;
+  float: right;
+  margin-top: -50px;
+}
+
+.servicesPic2 {
+  width: 70%;
+  float: left;
+  margin-top: -400px;
+}
+
+.servicesPic3 {
+  width: 55%;
+  float: right;
+  margin-top: -410px;
+}
+
+.whyUs {
+  width: 60%;
+  padding-left: 6%;
+  float: left;
+  font-family: futura;
+  margin-right: 15%;
+  margin-top: -300px;
+}
+
+.whyUsText {
+  margin-left: 10px;
+  width: 70%;
+  max-width: 600px;
+  margin-bottom: 150px;
+}
+
+.whyUsText:before {
+  content: '';
+  position: absolute;
+  left: 5%;
+  height: 17vw;
+  border: 2px solid #535353;
+}
+
+.filler {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.footer {
+  height: 70px;
+  background: #535353;
+  clear: both;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFA500;
+}
+
+.footer img {
+  height: 70%;
+}
+
+.rights {
+  font-family: futura;
+  font-size: 10px;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 20%;
+}
+/*# sourceMappingURL=main.css.map */
