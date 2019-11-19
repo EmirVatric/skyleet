@@ -1,15 +1,15 @@
-# 🚀 Welcome to your new awesome project!
+## Project title
+A company website for presenting ther projects.
 
-This project has been created using **webpack scaffold**, you can now run
+## Motivation
+Building and designing beautifull websites using webpack for well presented company,
 
-```
-npm run build
-```
+## Tech/framework used
+<b>Built with</b>
+- [Webpack](https://webpack.js.org/)
 
-or
+## Installation
+`yarn build`
 
-```
-yarn build
-```
-
-to bundle your application   
+## License
+MIT © [Emir Vatric](emirvatric.com)
